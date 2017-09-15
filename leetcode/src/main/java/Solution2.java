@@ -8,7 +8,7 @@
  *	Output: 7 -> 0 -> 8
  *	注意while循环中c==1 时也要进行处理。
  */
-public class Solution {
+public class Solution2 {
 	 public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 	     ListNode head = new ListNode(0);
 	     ListNode pre = head;
@@ -48,8 +48,8 @@ public class Solution {
 	 public static void main(String[] args) {
 		ListNode l1 = new ListNode(1);
 		ListNode l2 = new ListNode(1);
-		ListNode node = new Solution().addTwoNumbers(l1, l2);
-		Solution.print(node);
+		ListNode node = new Solution2().addTwoNumbers(l1, l2);
+		Solution2.print(node);
 		
 	}
 	 
